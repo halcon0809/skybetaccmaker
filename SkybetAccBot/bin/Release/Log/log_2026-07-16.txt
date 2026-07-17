@@ -1,0 +1,150 @@
+﻿[2026-07-16 18:50:34] Checking duplicate tips...
+
+[2026-07-16 18:50:34] **********************************************
+
+[2026-07-16 18:50:34] Get 0 New Accout
+
+[2026-07-16 18:50:34] Bot Stop
+
+[2026-07-16 18:50:38] Checking duplicate tips...
+
+[2026-07-16 18:50:38] **********************************************
+
+[2026-07-16 18:50:38] Get 0 New Accout
+
+[2026-07-16 18:50:38] Bot Stop
+[2026-07-16 22:08:30] Checking duplicate tips...
+
+[2026-07-16 22:08:30] **********************************************
+
+[2026-07-16 22:08:30] Get 0 New Accout
+
+[2026-07-16 22:08:30] Bot Stop
+[2026-07-16 22:13:14] File loaded successfully!
+
+[2026-07-16 22:13:24] Load 10 Account..
+
+[2026-07-16 22:13:24] Checking duplicate tips...
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:13:27] **********************************************
+
+[2026-07-16 22:13:27] Get 10 New Accout
+
+[2026-07-16 22:13:27] Create Acccount Start
+
+[2026-07-16 22:13:29] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:29] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:30] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:31] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:32] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:33] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:34] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:35] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:35] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:36] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:13:36] Finish Working
+
+[2026-07-16 22:13:36] **********************************************
+[2026-07-16 22:14:10] Load 10 Account..
+
+[2026-07-16 22:14:10] Checking duplicate tips...
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] Database check error: SQL logic error
+no such table: tb_Skybet
+
+[2026-07-16 22:14:10] **********************************************
+
+[2026-07-16 22:14:10] Get 10 New Accout
+
+[2026-07-16 22:14:10] Create Acccount Start
+
+[2026-07-16 22:14:12] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:12] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:13] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:14] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:14] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:15] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:15] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:16] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:17] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:17] Get Current IP Error => One or more errors occurred.
+
+[2026-07-16 22:14:17] Finish Working
+
+[2026-07-16 22:14:17] **********************************************

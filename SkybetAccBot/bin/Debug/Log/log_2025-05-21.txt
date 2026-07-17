@@ -1,0 +1,193 @@
+﻿[2025-05-21 09:22:13] Get IP Success => 82.37.135.51
+[2025-05-21 09:22:26] First Page Load
+[2025-05-21 09:22:31] Cookie Button Click
+[2025-05-21 09:22:31] Join Button Click
+[2025-05-21 09:22:34] Get Iframe
+[2025-05-21 09:22:38] Input Firstname
+[2025-05-21 09:22:42] Input Lastname
+[2025-05-21 09:23:48] Get IP Success => 94.7.67.120
+[2025-05-21 09:24:02] First Page Load
+[2025-05-21 09:24:02] Cookie Button Click
+[2025-05-21 09:24:02] Join Button Click
+[2025-05-21 09:24:05] Get Iframe
+[2025-05-21 09:24:09] Input Firstname
+[2025-05-21 09:24:12] Input Lastname
+[2025-05-21 10:58:26] File loaded successfully!
+[2025-05-21 11:14:01] File loaded successfully!
+[2025-05-21 11:16:20] File loaded successfully!
+[2025-05-21 11:16:20] Load 10 Account..
+[2025-05-21 11:23:41] File loaded successfully!
+[2025-05-21 11:23:41] Load 10 Account..
+[2025-05-21 11:25:19] File loaded successfully!
+[2025-05-21 11:25:19] Load 10 Account..
+[2025-05-21 11:26:16] File loaded successfully!
+[2025-05-21 11:26:16] Load 10 Account..
+[2025-05-21 11:28:12] File loaded successfully!
+[2025-05-21 11:28:12] Load 10 Account..
+[2025-05-21 11:29:38] File loaded successfully!
+[2025-05-21 11:29:38] Load 10 Account..
+[2025-05-21 11:33:47] File loaded successfully!
+[2025-05-21 11:33:47] Load 10 Account..
+[2025-05-21 13:10:28] File loaded successfully!
+[2025-05-21 13:10:28] Load 10 Account..
+[2025-05-21 13:10:36] Checking duplicate tips...
+[2025-05-21 13:10:36] Get 10 New Accout
+[2025-05-21 13:10:36] Create Acccount Start
+[2025-05-21 13:10:39] Get IP Success => 90.209.230.157
+[2025-05-21 13:10:52] First Page Load
+[2025-05-21 13:10:57] Cookie Button Click
+[2025-05-21 13:10:57] Join Button Click
+[2025-05-21 13:11:00] Get Iframe
+[2025-05-21 13:11:04] Input Firstname
+[2025-05-21 13:11:07] Input Lastname
+[2025-05-21 13:11:11] Step1 Button Click
+[2025-05-21 13:11:20] Input Birthday
+[2025-05-21 13:11:22] Step2 Button Click
+[2025-05-21 13:11:53] Input Address
+[2025-05-21 13:11:56] Address Button Click
+[2025-05-21 13:11:59] Step3 Button Click
+[2025-05-21 13:12:02] Input Email
+[2025-05-21 13:12:04] Step4 Button Click
+[2025-05-21 13:12:13] Input PhoneNumber
+[2025-05-21 13:12:15] Step5 Button Click
+[2025-05-21 13:12:18] Input Username
+[2025-05-21 13:12:20] Step6 Button Click
+[2025-05-21 13:12:25] Input Mothername
+[2025-05-21 13:14:43] File loaded successfully!
+[2025-05-21 13:14:43] Load 10 Account..
+[2025-05-21 13:14:50] Checking duplicate tips...
+[2025-05-21 13:14:50] Get 10 New Accout
+[2025-05-21 13:14:50] Create Acccount Start
+[2025-05-21 13:14:52] Get IP Success => 77.96.201.150
+[2025-05-21 13:15:06] First Page Load
+[2025-05-21 13:15:06] Cookie Button Click
+[2025-05-21 13:15:06] Join Button Click
+[2025-05-21 13:15:09] Get Iframe
+[2025-05-21 13:15:13] Input Firstname
+[2025-05-21 13:15:16] Input Lastname
+[2025-05-21 13:16:33] Checking duplicate tips...
+[2025-05-21 13:16:33] Get 0 New Accout
+[2025-05-21 13:16:33] Create Acccount Start
+[2025-05-21 13:16:33] Finish Working
+[2025-05-21 13:16:58] File loaded successfully!
+[2025-05-21 13:16:58] Load 10 Account..
+[2025-05-21 13:17:00] Checking duplicate tips...
+[2025-05-21 13:17:00] Get 10 New Accout
+[2025-05-21 13:17:00] Create Acccount Start
+[2025-05-21 13:17:02] Get IP Success => 92.22.42.13
+[2025-05-21 13:22:56] Load 10 Account..
+[2025-05-21 13:22:56] Checking duplicate tips...
+[2025-05-21 13:22:56] **********************************************
+[2025-05-21 13:22:56] Get 10 New Accout
+[2025-05-21 13:22:56] Create Acccount Start
+[2025-05-21 13:22:59] Get IP Success => 86.163.247.47
+[2025-05-21 13:23:12] First Page Load
+[2025-05-21 13:57:05] Load 2 Account..
+[2025-05-21 13:57:05] Checking duplicate tips...
+[2025-05-21 13:57:05] **********************************************
+[2025-05-21 13:57:05] Get 2 New Accout
+[2025-05-21 13:57:05] Create Acccount Start
+[2025-05-21 13:57:08] Get IP Success => 194.233.152.39
+[2025-05-21 13:57:59] Load 2 Account..
+[2025-05-21 13:57:59] Checking duplicate tips...
+[2025-05-21 14:00:35] Load 2 Account..
+[2025-05-21 14:00:35] Checking duplicate tips...
+[2025-05-21 14:00:54] Database check error: SQL logic error
+no such column: Fullname
+[2025-05-21 14:07:31] Database check error: SQL logic error
+no such column: Fullname
+[2025-05-21 14:07:31] **********************************************
+[2025-05-21 14:07:31] Get 2 New Accout
+[2025-05-21 14:07:31] Create Acccount Start
+[2025-05-21 14:07:35] Load 4 Account..
+[2025-05-21 14:07:35] Checking duplicate tips...
+[2025-05-21 14:08:45] Column: id
+[2025-05-21 14:08:48] Column: Username
+[2025-05-21 14:08:52] Column: LoginPIN
+[2025-05-21 14:08:55] Column: Firstname
+[2025-05-21 14:08:57] Column: Lastname
+[2025-05-21 14:09:12] Column: Birthday
+[2025-05-21 14:09:14] Column: Address
+[2025-05-21 14:09:16] Column: Email
+[2025-05-21 14:09:19] Column: Phone
+[2025-05-21 14:09:20] Column: Mothername
+[2025-05-21 14:09:23] Column: Answer
+[2025-05-21 14:09:25] Column: CreateTime
+[2025-05-21 14:09:28] Column: RegionIP
+[2025-05-21 14:09:52] Column: id
+[2025-05-21 14:09:52] Column: Username
+[2025-05-21 14:09:53] Column: LoginPIN
+[2025-05-21 14:09:54] Column: Firstname
+[2025-05-21 14:09:54] Column: Lastname
+[2025-05-21 14:09:54] Column: Birthday
+[2025-05-21 14:09:54] Column: Address
+[2025-05-21 14:09:54] Column: Email
+[2025-05-21 14:09:54] Column: Phone
+[2025-05-21 14:09:54] Column: Mothername
+[2025-05-21 14:09:54] Column: Answer
+[2025-05-21 14:09:54] Column: CreateTime
+[2025-05-21 14:09:54] Column: RegionIP
+[2025-05-21 14:09:56] Column: id
+[2025-05-21 14:09:56] Column: Username
+[2025-05-21 14:09:56] Column: LoginPIN
+[2025-05-21 14:09:56] Column: Firstname
+[2025-05-21 14:09:56] Column: Lastname
+[2025-05-21 14:09:56] Column: Birthday
+[2025-05-21 14:09:56] Column: Address
+[2025-05-21 14:09:56] Column: Email
+[2025-05-21 14:09:56] Column: Phone
+[2025-05-21 14:09:56] Column: Mothername
+[2025-05-21 14:09:56] Column: Answer
+[2025-05-21 14:09:56] Column: CreateTime
+[2025-05-21 14:09:56] Column: RegionIP
+[2025-05-21 14:09:56] **********************************************
+[2025-05-21 14:09:56] Get 4 New Accout
+[2025-05-21 14:09:56] Create Acccount Start
+[2025-05-21 14:09:56] Get IP Success => 5.133.47.197
+[2025-05-21 14:09:57] Get IP Success => 82.37.135.51
+[2025-05-21 14:11:28] Load 2 Account..
+[2025-05-21 14:11:28] Checking duplicate tips...
+[2025-05-21 14:12:31] Database check error: unknown error
+Insufficient parameters supplied to the command
+[2025-05-21 14:12:31] **********************************************
+[2025-05-21 14:12:31] Get 2 New Accout
+[2025-05-21 14:12:31] Create Acccount Start
+[2025-05-21 14:12:32] Get Current IP Error => One or more errors occurred.
+[2025-05-21 14:12:39] Load 2 Account..
+[2025-05-21 14:12:39] Checking duplicate tips...
+[2025-05-21 14:13:17] Load 2 Account..
+[2025-05-21 14:13:17] Checking duplicate tips...
+[2025-05-21 14:15:33] Load 2 Account..
+[2025-05-21 14:15:33] Checking duplicate tips...
+[2025-05-21 14:15:39] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-21 14:16:28] Load 2 Account..
+[2025-05-21 14:16:28] Checking duplicate tips...
+[2025-05-21 14:16:30] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-21 14:16:52] Load 2 Account..
+[2025-05-21 14:16:52] Checking duplicate tips...
+[2025-05-21 14:17:03] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-21 14:19:05] Load 2 Account..
+[2025-05-21 14:19:05] Checking duplicate tips...
+[2025-05-21 14:19:05] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-21 14:19:05] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-21 14:19:05] **********************************************
+[2025-05-21 14:19:05] Get 0 New Accout
+[2025-05-21 14:19:05] Create Acccount Start
+[2025-05-21 14:19:05] Finish Working
+[2025-05-21 14:19:05] **********************************************
+[2025-05-21 14:19:32] Load 2 Account..
+[2025-05-21 14:19:32] Checking duplicate tips...
+[2025-05-21 14:19:33] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-21 14:19:33] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-21 14:19:33] **********************************************
+[2025-05-21 14:19:33] Get 0 New Accout
+[2025-05-21 14:19:33] Create Acccount Start
+[2025-05-21 14:19:33] Finish Working
+[2025-05-21 14:19:33] **********************************************
+[2025-05-21 14:20:23] Load 2 Account..
+[2025-05-21 14:20:23] Checking duplicate tips...
+[2025-05-21 14:20:23] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-21 14:20:23] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-21 14:20:23] **********************************************
+[2025-05-21 14:20:23] Get 0 New Accout
+[2025-05-21 14:20:23] Bot Stop

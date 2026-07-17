@@ -1,0 +1,132 @@
+﻿[2025-05-20 19:02:09] Get IP Success => 194.233.154.59
+[2025-05-20 19:02:25] First Page Load
+[2025-05-20 19:02:30] Cookie Button Click
+[2025-05-20 19:02:30] Join Button Click
+[2025-05-20 19:02:33] Get Iframe
+[2025-05-20 19:02:36] Input Firstname
+[2025-05-20 19:02:39] Input Lastname
+[2025-05-20 19:02:53] Input Birthday
+[2025-05-20 19:02:55] Step2 Button Click
+[2025-05-20 20:26:02] Get IP Success => 80.194.24.63
+[2025-05-20 20:26:04] Get IP Success => 90.209.231.9
+[2025-05-20 20:26:23] Get IP Success => 94.7.65.239
+[2025-05-20 20:26:39] First Page Load
+[2025-05-20 20:26:54] Get IP Success => 86.24.102.248
+[2025-05-20 20:27:11] First Page Load
+[2025-05-20 20:27:16] Cookie Button Click
+[2025-05-20 20:27:16] Join Button Click
+[2025-05-20 20:27:19] Get Iframe
+[2025-05-20 20:27:22] Input Firstname
+[2025-05-20 20:27:25] Input Lastname
+[2025-05-20 20:27:38] Input Birthday
+[2025-05-20 20:27:40] Step2 Button Click
+[2025-05-20 20:28:12] Input Address
+[2025-05-20 20:28:15] Address Button Click
+[2025-05-20 20:28:18] Step3 Button Click
+[2025-05-20 20:28:21] Input Email
+[2025-05-20 20:28:23] Step4 Button Click
+[2025-05-20 20:28:30] Input PhoneNumber
+[2025-05-20 20:28:32] Step5 Button Click
+[2025-05-20 20:28:35] Input Username
+[2025-05-20 20:28:37] Step6 Button Click
+[2025-05-20 20:28:42] Input Mothername
+[2025-05-20 20:28:45] Input Answer
+[2025-05-20 20:28:47] Step7 Button Click
+[2025-05-20 20:29:06] Input PIN
+[2025-05-20 20:29:08] Step8 Button Click
+[2025-05-20 20:29:10] Select1 Button Click
+[2025-05-20 20:29:12] Select2 Button Click
+[2025-05-20 20:29:14] Accept Button Click
+[2025-05-20 20:29:16] Click Term CheckBox
+[2025-05-20 20:29:19] Create Button Click
+[2025-05-20 20:29:19] Create Account Success
+[2025-05-20 20:29:19] Start Insert DB
+[2025-05-20 20:29:21] Get IP Success => 94.7.65.239
+[2025-05-20 20:29:38] First Page Load
+[2025-05-20 20:29:43] Cookie Button Click
+[2025-05-20 20:29:43] Join Button Click
+[2025-05-20 20:29:46] Get Iframe
+[2025-05-20 20:29:49] Input Firstname
+[2025-05-20 20:29:53] Input Lastname
+[2025-05-20 20:30:06] DOBDayInput Error
+[2025-05-20 20:30:07] Get IP Success => 92.238.164.44
+[2025-05-20 20:30:24] First Page Load
+[2025-05-20 20:30:29] Cookie Button Click
+[2025-05-20 20:30:30] Join Button Click
+[2025-05-20 20:30:33] Get Iframe
+[2025-05-20 20:30:35] Input Firstname
+[2025-05-20 20:30:38] Input Lastname
+[2025-05-20 20:30:53] DOBDayInput Error
+[2025-05-20 20:30:54] Get IP Success => 94.7.81.237
+[2025-05-20 20:31:11] First Page Load
+[2025-05-20 20:31:16] Cookie Button Click
+[2025-05-20 20:31:16] Join Button Click
+[2025-05-20 20:31:19] Get Iframe
+[2025-05-20 20:31:22] Input Firstname
+[2025-05-20 20:33:34] Get IP Success => 77.101.107.28
+[2025-05-20 20:33:50] First Page Load
+[2025-05-20 20:33:55] Cookie Button Click
+[2025-05-20 20:33:55] Join Button Click
+[2025-05-20 20:33:58] Get Iframe
+[2025-05-20 20:34:01] Input Firstname
+[2025-05-20 20:34:04] Input Lastname
+[2025-05-20 20:34:22] Get IP Success => 77.96.199.146
+[2025-05-20 20:34:38] First Page Load
+[2025-05-20 20:34:43] Cookie Button Click
+[2025-05-20 20:34:43] Join Button Click
+[2025-05-20 20:34:46] Get Iframe
+[2025-05-20 20:34:49] Input Firstname
+[2025-05-20 20:34:52] Input Lastname
+[2025-05-20 20:34:57] Get IP Success => 86.143.68.193
+[2025-05-20 20:35:13] First Page Load
+[2025-05-20 20:35:18] Cookie Button Click
+[2025-05-20 20:35:18] Join Button Click
+[2025-05-20 20:35:21] Get Iframe
+[2025-05-20 20:35:24] Input Firstname
+[2025-05-20 20:35:27] Input Lastname
+[2025-05-20 20:35:31] Get IP Success => 80.195.137.140
+[2025-05-20 20:35:48] First Page Load
+[2025-05-20 20:35:53] Cookie Button Click
+[2025-05-20 20:35:54] Join Button Click
+[2025-05-20 20:35:57] Get Iframe
+[2025-05-20 20:36:00] Input Firstname
+[2025-05-20 20:36:02] Input Lastname
+[2025-05-20 20:36:07] Get IP Success => 86.24.102.36
+[2025-05-20 20:36:23] First Page Load
+[2025-05-20 20:36:28] Cookie Button Click
+[2025-05-20 20:36:29] Join Button Click
+[2025-05-20 20:36:32] Get Iframe
+[2025-05-20 20:36:34] Input Firstname
+[2025-05-20 20:36:37] Input Lastname
+[2025-05-20 20:36:42] Get IP Success => 89.242.229.57
+[2025-05-20 20:36:59] First Page Load
+[2025-05-20 20:44:20] Get IP Success => 31.53.134.14
+[2025-05-20 20:44:35] First Page Load
+[2025-05-20 20:44:40] Cookie Button Click
+[2025-05-20 20:44:41] Join Button Click
+[2025-05-20 20:44:44] Get Iframe
+[2025-05-20 20:44:46] Input Firstname
+[2025-05-20 20:44:49] Input Lastname
+[2025-05-20 20:44:58] Get IP Success => 77.101.112.50
+[2025-05-20 20:45:14] First Page Load
+[2025-05-20 20:45:19] Cookie Button Click
+[2025-05-20 20:45:19] Join Button Click
+[2025-05-20 20:45:22] Get Iframe
+[2025-05-20 20:45:25] Input Firstname
+[2025-05-20 20:45:28] Input Lastname
+[2025-05-20 20:45:37] Get IP Success => 92.28.182.89
+[2025-05-20 20:45:53] First Page Load
+[2025-05-20 20:45:58] Cookie Button Click
+[2025-05-20 20:45:59] Join Button Click
+[2025-05-20 20:46:02] Get Iframe
+[2025-05-20 20:46:04] Input Firstname
+[2025-05-20 20:46:07] Input Lastname
+[2025-05-20 20:46:16] Get IP Success => 194.233.155.50
+[2025-05-20 20:46:34] First Page Load
+[2025-05-20 20:46:34] Cookie Button Click
+[2025-05-20 20:46:34] Join Button Click
+[2025-05-20 20:46:37] Get Iframe
+[2025-05-20 20:46:40] Input Firstname
+[2025-05-20 20:46:43] Input Lastname
+[2025-05-20 20:46:52] Get IP Success => 82.42.213.193
+[2025-05-20 20:47:08] First Page Load

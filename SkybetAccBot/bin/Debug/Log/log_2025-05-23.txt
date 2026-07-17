@@ -1,0 +1,110 @@
+﻿[2025-05-23 12:08:52] Load 2 Account..
+[2025-05-23 12:08:52] Checking duplicate tips...
+[2025-05-23 12:08:52] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 12:08:52] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-23 12:08:52] **********************************************
+[2025-05-23 12:08:52] Get 0 New Accout
+[2025-05-23 12:08:52] Bot Stop
+[2025-05-23 12:09:00] File loaded successfully!
+[2025-05-23 12:09:02] Load 2 Account..
+[2025-05-23 12:09:02] Checking duplicate tips...
+[2025-05-23 12:09:02] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 12:09:02] Duplicate found in DB: Jayne king (2000-12-23)
+[2025-05-23 12:09:02] **********************************************
+[2025-05-23 12:09:02] Get 0 New Accout
+[2025-05-23 12:09:02] Bot Stop
+[2025-05-23 12:09:20] File loaded successfully!
+[2025-05-23 12:09:21] Load 2 Account..
+[2025-05-23 12:09:21] Checking duplicate tips...
+[2025-05-23 12:09:21] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 12:09:21] **********************************************
+[2025-05-23 12:09:21] Get 1 New Accout
+[2025-05-23 12:09:21] Create Acccount Start
+[2025-05-23 12:09:25] [Skybet] Proxy isn't UK
+[2025-05-23 12:09:32] Finish Working
+[2025-05-23 12:09:32] **********************************************
+[2025-05-23 12:09:47] Load 3 Account..
+[2025-05-23 12:09:47] Checking duplicate tips...
+[2025-05-23 12:09:47] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 12:09:47] **********************************************
+[2025-05-23 12:09:47] Get 2 New Accout
+[2025-05-23 12:09:47] Create Acccount Start
+[2025-05-23 12:09:48] Get IP Success => 77.96.199.41
+[2025-05-23 12:10:02] First Page Load
+[2025-05-23 12:10:02] Cookie Button Click
+[2025-05-23 12:10:02] Join Button Click
+[2025-05-23 12:10:05] Get Iframe
+[2025-05-23 13:41:12] Load 2 Account..
+[2025-05-23 13:41:12] Checking duplicate tips...
+[2025-05-23 13:41:12] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 13:41:12] **********************************************
+[2025-05-23 13:41:12] Get 1 New Accout
+[2025-05-23 13:41:12] Create Acccount Start
+[2025-05-23 13:41:15] Get IP Success => 194.233.154.137
+[2025-05-23 13:41:36] Load 2 Account..
+[2025-05-23 13:41:36] Checking duplicate tips...
+[2025-05-23 13:41:36] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 13:41:36] **********************************************
+[2025-05-23 13:41:36] Get 1 New Accout
+[2025-05-23 13:41:36] Create Acccount Start
+[2025-05-23 13:41:38] Get IP Success => 94.7.65.239
+[2025-05-23 13:41:52] First Page Load
+[2025-05-23 13:41:57] Cookie Button Click
+[2025-05-23 13:41:57] Join Button Click
+[2025-05-23 13:42:08] Load 2 Account..
+[2025-05-23 13:42:08] Checking duplicate tips...
+[2025-05-23 13:42:09] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 13:42:09] **********************************************
+[2025-05-23 13:42:09] Get 1 New Accout
+[2025-05-23 13:42:09] Create Acccount Start
+[2025-05-23 13:42:11] Get IP Success => 194.233.157.252
+[2025-05-23 13:42:25] First Page Load
+[2025-05-23 13:42:25] *********** Can't find Element ***********
+[2025-05-23 13:42:25] Finish Working
+[2025-05-23 13:42:25] **********************************************
+[2025-05-23 14:10:53] Load 2 Account..
+[2025-05-23 14:10:53] Checking duplicate tips...
+[2025-05-23 14:10:53] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 14:10:53] **********************************************
+[2025-05-23 14:10:53] Get 1 New Accout
+[2025-05-23 14:10:53] Create Acccount Start
+[2025-05-23 14:10:56] Get IP Success => 77.101.112.50
+[2025-05-23 14:11:16] First Page Load
+[2025-05-23 14:11:18] Create Account Error => One or more errors occurred.
+[2025-05-23 14:11:18] Finish Working
+[2025-05-23 14:11:18] **********************************************
+[2025-05-23 14:12:10] Load 2 Account..
+[2025-05-23 14:12:10] Checking duplicate tips...
+[2025-05-23 14:12:10] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 14:12:10] **********************************************
+[2025-05-23 14:12:10] Get 1 New Accout
+[2025-05-23 14:12:10] Create Acccount Start
+[2025-05-23 14:12:12] Get IP Success => 77.100.156.168
+[2025-05-23 14:12:25] First Page Load
+[2025-05-23 14:12:26] Create Account Error => One or more errors occurred.
+[2025-05-23 14:12:26] Finish Working
+[2025-05-23 14:12:26] **********************************************
+[2025-05-23 14:12:40] Load 2 Account..
+[2025-05-23 14:12:40] Checking duplicate tips...
+[2025-05-23 14:12:40] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 14:12:40] **********************************************
+[2025-05-23 14:12:40] Get 1 New Accout
+[2025-05-23 14:12:40] Create Acccount Start
+[2025-05-23 14:12:42] Get IP Success => 77.101.106.96
+[2025-05-23 14:12:57] First Page Load
+[2025-05-23 14:19:00] Load 2 Account..
+[2025-05-23 14:19:00] Checking duplicate tips...
+[2025-05-23 14:19:00] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 14:19:00] **********************************************
+[2025-05-23 14:19:00] Get 1 New Accout
+[2025-05-23 14:19:00] Create Acccount Start
+[2025-05-23 14:19:02] Get IP Success => 194.233.154.164
+[2025-05-23 14:19:15] First Page Load
+[2025-05-23 14:21:03] Load 2 Account..
+[2025-05-23 14:21:03] Checking duplicate tips...
+[2025-05-23 14:21:03] Duplicate found in DB: Harry William (1973-10-18)
+[2025-05-23 14:21:03] **********************************************
+[2025-05-23 14:21:03] Get 1 New Accout
+[2025-05-23 14:21:03] Create Acccount Start
+[2025-05-23 14:21:05] Get IP Success => 82.37.131.98
+[2025-05-23 14:21:19] First Page Load

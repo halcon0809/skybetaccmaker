@@ -1,0 +1,71 @@
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\SkybetAccBot.exe.config
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\SkybetAccBot.exe
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\SkybetAccBot.pdb
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\ChromeDevTools.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\EntityFramework.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\EntityFramework.SqlServer.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\Newtonsoft.Json.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\System.Data.SQLite.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\System.Data.SQLite.EF6.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\System.Data.SQLite.Linq.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\websocket-sharp.dll
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\EntityFramework.xml
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\EntityFramework.SqlServer.xml
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\Newtonsoft.Json.xml
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\bin\Release\System.Data.SQLite.xml
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.AssemblyReference.cache
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAccBot.Form1.resources
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAccBot.Properties.Resources.resources
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.GenerateResource.cache
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.CoreCompileInputs.cache
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAc.B456A36A.Up2Date
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAccBot.exe
+F:\HSTAR WORK\SkybetAccBot\SkybetAccBot\obj\Release\SkybetAccBot.pdb
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\SkybetAccBot.exe.config
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\SkybetAccBot.exe
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\SkybetAccBot.pdb
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\ChromeDevTools.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.SqlServer.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\Newtonsoft.Json.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.EF6.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.Linq.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\websocket-sharp.dll
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.xml
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.SqlServer.xml
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\Newtonsoft.Json.xml
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.xml
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.AssemblyReference.cache
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.Form1.resources
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.Properties.Resources.resources
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.GenerateResource.cache
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.CoreCompileInputs.cache
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAc.B456A36A.Up2Date
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.exe
+F:\HSTAR WORK\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.pdb
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\SkybetAccBot.exe.config
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\SkybetAccBot.exe
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\SkybetAccBot.pdb
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\ChromeDevTools.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.SqlServer.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\FontAwesome.Sharp.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\Guna.UI2.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\Newtonsoft.Json.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.EF6.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.Linq.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\websocket-sharp.dll
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.xml
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\EntityFramework.SqlServer.xml
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\Newtonsoft.Json.xml
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\bin\Release\System.Data.SQLite.xml
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.AssemblyReference.cache
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.Form1.resources
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.Properties.Resources.resources
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.GenerateResource.cache
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.csproj.CoreCompileInputs.cache
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAc.B456A36A.Up2Date
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.exe
+D:\dev\betting bot\Skybetaccmaker\SkybetAccount Bot\SkybetAccBot\obj\Release\SkybetAccBot.pdb

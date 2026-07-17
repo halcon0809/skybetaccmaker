@@ -1,0 +1,360 @@
+﻿using MasterDevs.ChromeDevTools;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using SkybetAccBot.Model;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SQLite;
+using System.Drawing;
+using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
+
+namespace SkybetAccBot
+{
+    public delegate void onWriteStatusEvent(string status);
+    public delegate void onWriteLogEvent(string filename, string strLog);
+
+    public partial class Form1: Form
+    {
+        public event onWriteLogEvent onWriteLog;
+        public event onWriteStatusEvent onWriteStatus;
+        private string prevMessage = string.Empty;
+
+        public SkybetAccountTip m_skyproxyinfo = new SkybetAccountTip();
+        public List<SkybetAccountTip> m_skybetList = new List<SkybetAccountTip>();
+        public SkybetCtr m_skybetCtr = null;
+        public int m_skybet_cnt = 0;
+
+        private Random _rand = new Random();
+
+        public Form1()
+        {
+            InitializeComponent();
+            this.onWriteStatus += writeStatus;
+            this.onWriteLog += LogToFile;
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                GetSettingFromFile();
+                SetSettingToUI();
+            }
+            catch { }
+        }
+        #region Setting
+        private void GetSettingFromUI()
+        {
+            try
+            {
+                m_skyproxyinfo.ProxyURL = ui_proxyURL.Text;
+                m_skyproxyinfo.ProxyUser = ui_proxyuser.Text;
+                m_skyproxyinfo.ProxyPass = ui_proxypass.Text;
+                m_skyproxyinfo.Filepath = ui_filepath.Text;
+                m_skyproxyinfo.LoginPIN = ui_password.Text;
+            }
+            catch { }
+        }
+        private void GetSettingFromFile()
+        {
+            try
+            {
+                string filepath = "setting.json";
+                string content = File.ReadAllText(filepath);
+
+                JObject settingObj = JObject.Parse(content);
+                m_skyproxyinfo.ProxyURL = settingObj["proxyurl"].ToString();
+                m_skyproxyinfo.ProxyUser = settingObj["proxyuser"].ToString();
+                m_skyproxyinfo.ProxyPass = settingObj["proxypass"].ToString();
+                m_skyproxyinfo.Filepath = settingObj["filepath"].ToString();
+                m_skyproxyinfo.LoginPIN = settingObj["loginpin"].ToString();
+            }
+            catch { }
+        }
+        private void SetSettingToUI()
+        {
+            try
+            {
+                ui_proxyURL.Text = m_skyproxyinfo.ProxyURL;
+                ui_proxyuser.Text = m_skyproxyinfo.ProxyUser;
+                ui_proxypass.Text = m_skyproxyinfo.ProxyPass;
+                ui_filepath.Text = m_skyproxyinfo.Filepath;
+                ui_password.Text = m_skyproxyinfo.LoginPIN;
+            }
+            catch { }
+        }
+        private void SetSettingToFile()
+        {
+            try
+            {
+                dynamic settingObj = new JObject();
+                settingObj.proxyurl = m_skyproxyinfo.ProxyURL;
+                settingObj.proxyuser = m_skyproxyinfo.ProxyUser;
+                settingObj.proxypass = m_skyproxyinfo.ProxyPass;
+                settingObj.filepath = m_skyproxyinfo.Filepath;
+                settingObj.loginpin = m_skyproxyinfo.LoginPIN;
+
+                string json = settingObj.ToString();
+                File.WriteAllText("setting.json", json);
+            }
+            catch { }
+        }
+        #endregion
+        #region Log
+        private void writeStatus(string status)
+        {
+            try
+            {
+                string curPath = Directory.GetCurrentDirectory();
+                bool exists = System.IO.Directory.Exists(curPath + "\\Log");
+                if (!exists)
+                    System.IO.Directory.CreateDirectory(curPath + "\\Log");
+                if (ui_log.InvokeRequired)
+                    ui_log.Invoke(onWriteStatus, status);
+                else
+                {
+                    string logText = ((string.IsNullOrEmpty(ui_log.Text) ? "" : "\r") + string.Format("[{0}] {1}", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"), status));
+                    if (prevMessage.Equals(status)) return;
+                    this.onWriteLog(curPath + "\\Log\\" + string.Format("log_{0}.txt", DateTime.Now.ToString("yyyy-MM-dd")), logText);
+                    ui_log.AppendText(logText);
+                    ui_log.ScrollToCaret();
+                    prevMessage = logText;
+                }
+            }
+            catch (Exception)
+            {
+            }
+        }
+        private void LogToFile(string filename, string result)
+        {
+            try
+            {
+                string curPath = Directory.GetCurrentDirectory();
+                if (string.IsNullOrEmpty(filename))
+                    return;
+                StreamWriter streamWriter = new StreamWriter((Stream)System.IO.File.Open(filename, FileMode.Append, FileAccess.Write, FileShare.Read), Encoding.UTF8);
+                if (!string.IsNullOrEmpty(result))
+                    streamWriter.WriteLine(result);
+                streamWriter.Close();
+            }
+            catch (System.Exception ex)
+            {
+                onWriteStatus("LogToFile Error => " + ex.Message);
+            }
+        }
+        #endregion
+        private void ui_btn_save_Click(object sender, EventArgs e)
+        {
+            GetSettingFromUI();
+            SetSettingToFile();
+        }
+        private void ui_btn_clear_Click(object sender, EventArgs e)
+        {
+
+        }
+        private async void btn_ui_create_Click(object sender, EventArgs e)
+        {
+            GetSettingFromUI();
+            SetSettingToFile();
+            try
+            {
+                m_skybetCtr = new SkybetCtr(onWriteStatus, onWriteLog, m_skyproxyinfo);
+
+                LoadTipFromFile(ui_filepath.Text);
+                foreach (SkybetAccountTip accountTip in m_skybetList)
+                {
+                    try
+                    {
+                        accountTip.Phone = "07" + GenerateRandomPhone(_rand);
+                        accountTip.Email = accountTip.Firstname + "." + accountTip.Lastname + "@gamil.com";
+                        accountTip.Mothername = "Jemilah";
+                        accountTip.Answer = "monkey";
+                        accountTip.LoginPIN = m_skyproxyinfo.LoginPIN;
+                        string first3Word1 = accountTip.Firstname.Substring(0, 3);
+                        string first3Word2 = accountTip.Lastname.Substring(0, 3);
+                        accountTip.Username = first3Word1 + first3Word2 + GenerateUsername(_rand);
+                        accountTip.ProxyURL = m_skyproxyinfo.ProxyURL;
+                        accountTip.ProxyUser = m_skyproxyinfo.ProxyUser;
+                        accountTip.ProxyPass = m_skyproxyinfo.ProxyPass;
+                    }
+                    catch { }
+                }
+
+                onWriteStatus("Checking duplicate tips...");
+                for (int i = m_skybetList.Count - 1; i >= 0; i--)
+                {
+                    var accountTip = m_skybetList[i];
+                    try
+                    {
+                        if (IsDuplicateInDatabase(accountTip))
+                        {
+                            onWriteStatus($"Duplicate found in DB: {accountTip.Firstname} {accountTip.Lastname} ({accountTip.Birthday:yyyy-MM-dd})");
+                            m_skybetList.RemoveAt(i);
+                        }
+                    }
+                    catch { }
+                }
+                
+                onWriteStatus("**********************************************");
+                onWriteStatus(string.Format("Get {0} New Accout", m_skybetList.Count));
+                if (m_skybetList.Count == 0)
+                {
+                    onWriteStatus("Bot Stop");
+                    return;
+                }
+                onWriteStatus("Create Acccount Start");
+
+                await Task.Run(async () =>
+                {
+                    foreach (SkybetAccountTip accountTip in m_skybetList)
+                    {
+                        try
+                        {
+                            bool bresult = false;
+                            bresult = await m_skybetCtr.CreateAccount(accountTip);
+                            m_skybetCtr._chromeDevCtr.Close_Browser();
+                        }
+                        catch { }
+                    }
+                });
+
+                onWriteStatus("Finish Working");
+                onWriteStatus("**********************************************");
+            }
+            catch { }
+        }
+        public static string GenerateUsername(Random _rand)
+        {
+            const string Letters = "abcdefghijklmnopqrstuvwxyz";
+            var sb = new StringBuilder(11);
+
+            for (int i = 0; i < 3; i++)
+                sb.Append(Letters[_rand.Next(Letters.Length)]);
+            return sb.ToString();
+        }
+        public string GenerateRandomPhone(Random _rand)
+        {
+            var sb = new StringBuilder(10);
+            for (int i = 0; i < 9; i++)
+                sb.Append(_rand.Next(10));
+            return sb.ToString();
+        }
+        public string GenerateRandomPassword(Random _rand)
+        {
+            var sb = new StringBuilder(10);
+            for (int i = 0; i < 6; i++)
+                sb.Append(_rand.Next(10));
+            return sb.ToString();
+        }
+        private void ui_btn_open_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            openFileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            openFileDialog.FilterIndex = 1;
+            openFileDialog.RestoreDirectory = true;
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = openFileDialog.FileName;
+                ui_filepath.Text = filePath;
+                onWriteStatus("File loaded successfully!");
+            }
+        }
+        private void LoadTipFromFile(string filepath)
+        {
+            try
+            {
+                string[] lines = File.ReadAllLines(filepath);
+
+                for (int i = 0; i < lines.Length; i += 5)
+                {
+                    try
+                    {
+                        if (i + 3 >= lines.Length) break;
+
+                        string fullName = lines[i].Trim();
+
+                        string dobLine = lines[i + 1].Trim();
+                        string addressLine1 = lines[i + 2].Trim();
+                        string addressLine2 = lines[i + 3].Trim();
+
+                        if (DateTime.TryParseExact(dobLine, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dob))
+                        {
+                            string[] nameParts = fullName.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                            string firstName = nameParts.Length > 1 ? nameParts[nameParts.Length - 2] : nameParts[0];
+                            string lastName = nameParts.Length > 1 ? nameParts[nameParts.Length - 1] : "";
+
+                            string fullAddress = $"{addressLine1}, {addressLine2}";
+
+                            var account = new SkybetAccountTip
+                            {
+                                Fullname = fullName,
+                                Firstname = firstName,
+                                Lastname = lastName,
+                                Birthday = dob,
+                                Address = fullAddress
+                            };
+                            m_skybetList.Add(account);
+                        }
+                    }
+                    catch { }
+                }
+                onWriteStatus(string.Format("Load {0} Account..", m_skybetList.Count));
+            }
+            catch { }
+        }
+        private bool IsDuplicateInDatabase(SkybetAccountTip account)
+        {
+            try
+            {
+                string m_connectionString = "Data Source=AccountResult.db;Version=3;";
+                using (var conn = new SQLiteConnection(m_connectionString))
+                {
+                    conn.Open();
+
+                    string query = @"
+                    SELECT COUNT(*) FROM tb_Skybet
+                    WHERE LOWER(Fullname) = @Fullname
+                    AND LOWER(Address) = @Address
+                    AND Birthday = @Birthday";
+                    using (var cmd = new SQLiteCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Fullname", account.Fullname.ToLower());
+                        cmd.Parameters.AddWithValue("@Address", account.Address.ToLower());
+                        cmd.Parameters.AddWithValue("@Birthday", account.Birthday.ToString("yyyy-MM-dd 00:00:00")); // Match format used in DB
+
+                        long count = (long)cmd.ExecuteScalar();
+                        return count > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                onWriteStatus("Database check error: " + ex.Message);
+                return false;
+            }
+        }
+
+        private void ui_btn_randompassword_Click(object sender, EventArgs e)
+        {
+            ui_password.Text = GenerateRandomPassword(_rand);
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+        }
+
+    }
+}
